@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: spring-composite-config
+
+  profiles:
+    active: jdbc
+
+  ## GIT
+  cloud:
+    config:
+      server:
+
+## JDBC
+        jdbc:
+          order: 1
+          sql: SELECT PROP_KEY, VALUE,LABEL from PROPERTIES where APPLICATION=? and PROFILE=? and LABEL=?
+           
+
