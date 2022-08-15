@@ -7,3 +7,5 @@ While it fits very well in Spring applications using all the supported configura
 PropertySource, or @Value, it can be used in any environment running any programming language.
 In this tutorial, we'll focus on how to set up a Git-backed config server, 
 use it in a simple REST application server, and set up a secure environment including encrypted property values.
+
+![image](https://user-images.githubusercontent.com/101938468/184625587-e48d610e-d34e-4369-add8-be266186d298.png)
