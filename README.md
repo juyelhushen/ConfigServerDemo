@@ -12,10 +12,11 @@ use it in a simple REST application server, and set up a secure environment incl
 ![image](https://user-images.githubusercontent.com/101938468/184625587-e48d610e-d34e-4369-add8-be266186d298.png)
 
 Le's Setup Our #Cloud Config Server.
-Simplely Generate a Spring maven application with the following application
-#actuator
-#postgres(Since we are using postgres as our source Storag)
-#Cloud -config-server and 
-#Spring jdbc and Cloud starter-bootstrap
+# Simplely Generate a Spring maven application with the following application
+# actuator
+# postgres(Since we are using postgres as our source Storag)
+# Cloud -config-server and 
+# Spring jdbc and Cloud starter-bootstrap
  that's all we need in our server application
- 
+ # Config client
+ # 
