@@ -17,7 +17,8 @@ Le's Setup Our #Cloud Config Server.
 
  
 # Open application.properties and the following details
- ![application properties](https://user-images.githubusercontent.com/101938468/184629185-4d975829-1e91-4bb0-81b6-81ce4dabd084.png)
+![application(1)](https://user-images.githubusercontent.com/101938468/184630693-44b5fd31-190d-4f6a-b56a-7bae720a3253.png)
+
 # Create a bootstrap.yml in resources path and the following detais
 ![ice_screenshot_20220815-171400](https://user-images.githubusercontent.com/101938468/184629427-74249f9d-0659-4316-954f-f094ccabda3e.png)
 # And last just enable the config server by Using @EnableConfigserver in your main application class
@@ -28,4 +29,19 @@ Le's Setup Our #Cloud Config Server.
 
  
  # Config client
- # 
+ add the bellowing dependency 
+ 
+ ![client xml](https://user-images.githubusercontent.com/101938468/184630986-41c3f96d-7f90-4deb-ade3-9c4a51fa3cb3.png)
+ 
+ create a bootstrap.yml file and add the following details
+ ![ice_screenshot_20220815-172816](https://user-images.githubusercontent.com/101938468/184631294-cba87f9b-a8e7-4ce1-861c-016e24a5ce21.png)
+ Then Simplely cretate a controller class and use the @Value annotation pass the property key in it.
+ ![ice_screenshot_20220815-173138](https://user-images.githubusercontent.com/101938468/184631681-acae5ac5-4a37-4aa2-900b-fc14ac09d1e8.png)
+
+  Then we Have create a properties table in which our property value would be stored
+  ![ice_screenshot_20220815-173710](https://user-images.githubusercontent.com/101938468/184632359-fce86a60-8e4a-4afe-9b3c-107e3564dad7.png)
+  
+  that's we are ready to go
+
+
+
