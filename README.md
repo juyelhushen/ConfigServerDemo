@@ -12,17 +12,20 @@ use it in a simple REST application server, and set up a secure environment incl
 ![image](https://user-images.githubusercontent.com/101938468/184625587-e48d610e-d34e-4369-add8-be266186d298.png)
 
 Le's Setup Our #Cloud Config Server.
-# Simplely Generate a Spring maven application with the following application
-# actuator
-# postgres(Since we are using postgres as our source Storag)
-# Cloud -config-server and 
-# Spring jdbc and Cloud starter-bootstrap
- that's all we need in our server application
- 
-# Open application.properties and the following details
-![application properties](https://user-images.githubusercontent.com/101938468/184628524-458a7770-4848-44e8-ba58-5cb103d831ce.png)
+# Simplely Generate a Spring maven application with the following dependencies
+![dependcies](https://user-images.githubusercontent.com/101938468/184629053-7750fc81-bea1-4fb5-a16c-39b6c0c275f3.png)
 
  
+# Open application.properties and the following details
+ ![application properties](https://user-images.githubusercontent.com/101938468/184629185-4d975829-1e91-4bb0-81b6-81ce4dabd084.png)
+# Create a bootstrap.yml in resources path and the following detais
+![ice_screenshot_20220815-171400](https://user-images.githubusercontent.com/101938468/184629427-74249f9d-0659-4316-954f-f094ccabda3e.png)
+# And last just enable the config server by Using @EnableConfigserver in your main application class
+![ice_screenshot_20220815-171706](https://user-images.githubusercontent.com/101938468/184629852-4be8668f-8058-4212-a839-2b910640fe95.png)
+
+# We are done with config server so far.lets have look at our client application how our its interect with server
+
+
  
  # Config client
  # 
