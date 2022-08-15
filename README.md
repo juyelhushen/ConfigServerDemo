@@ -20,16 +20,8 @@ Le's Setup Our #Cloud Config Server.
  that's all we need in our server application
  
 # Open application.properties and the following details
-server.port=8090
+![application properties](https://user-images.githubusercontent.com/101938468/184628524-458a7770-4848-44e8-ba58-5cb103d831ce.png)
 
-spring.datasource.hikari.connection-timeout=5000 br
-# spring.datasource.hikari.maximum-pool-size=10
- spring.datasource.driver-class-name=org.postgresql.Driver
-# spring.datasource.url=jdbc:postgresql://localhost:8790/test?useSSL=false
- spring.datasource.username=postgres
-# spring.datasource.password=*******
- spring.jpa.show-sql=true
-# management.endpoints.web.exposure.include=*
  
  
  # Config client
